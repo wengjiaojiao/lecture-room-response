@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background: #CCCCCC;
+    color: #003366;
 }
 ul {
     padding-left: 0px;
@@ -15,7 +16,6 @@ ul {
 .picture {
     width: 87%;
     margin-left: 9%;
-    background: yellow;
     border-radius: 50%;
 }
 .nav hr {
@@ -33,7 +33,6 @@ ul {
     padding-top: 15px;
     padding-bottom: 12px;
     line-height: 5px;
-    color: #3399CC;
 }
 .main {
     width: 64%;
@@ -56,7 +55,6 @@ ul {
     margin-top: -2.5%;
     margin-left: 42%;
     font-size: 27px;
-    color: #003366;
     width: 13%;
     background: #CCCCCC;
 }
@@ -64,7 +62,6 @@ ul {
     display: inline-block;
     width: 290px;
     height: 360px;
-    background: blue;
     margin-right: 1.5%;
 }
 .image {
@@ -72,11 +69,9 @@ ul {
     height: 82%;
     margin-top: 5%;
     margin-left: 2%;
-    background: yellow;
 }
 .name {
     width: 36%;
-    background: yellow;
     font-size: 16px;
     margin-left: 33%;
     margin-top: 5%;
