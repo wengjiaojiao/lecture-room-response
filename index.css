@@ -36,11 +36,11 @@ ul {
     color: #3399CC;
 }
 .main {
-    width: 62%;
+    width: 64%;
     margin-left: 34%;
 }
 .title {
-    padding-top: 19%;
+    padding-top: 18%;
 }
 .subheading {
     font-size: 19px;
@@ -59,4 +59,25 @@ ul {
     color: #003366;
     width: 13%;
     background: #CCCCCC;
+}
+.introduction {
+    display: inline-block;
+    width: 290px;
+    height: 360px;
+    background: blue;
+    margin-right: 1.5%;
+}
+.image {
+    width: 96%;
+    height: 82%;
+    margin-top: 5%;
+    margin-left: 2%;
+    background: yellow;
+}
+.name {
+    width: 36%;
+    background: yellow;
+    font-size: 16px;
+    margin-left: 33%;
+    margin-top: 5%;
 }
