@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #CCCCCC;
+}
+ul {
+    padding-left: 0px;
+}
+.left-nav {
+    width: 28%;
+    margin-left: 2.6%;
+    margin-top: 5.5%;
+    float: left;
+}
+.picture {
+    width: 87%;
+    margin-left: 9%;
+    background: yellow;
+    border-radius: 50%;
+}
+.nav hr {
+    width: 67%;
+}
+.nav ul {
+    width: 66%;
+    margin-left: 19%;
+}
+.nav-word hr {
+    width: 100%;
+}
+.nav-word {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    line-height: 5px;
+    color: #3399CC;
+}
