@@ -73,6 +73,7 @@ ul {
 .name {
     font-size: 16px;
     margin-top: 5%;
+    font-weight: bold;
 }
 .about {
     width: 18%;
