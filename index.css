@@ -35,8 +35,8 @@ ul {
     line-height: 5px;
 }
 .main {
-    width: 64%;
-    margin-left: 34%;
+    width: 66%;
+    margin-left: 32%;
 }
 .title {
     padding-top: 18%;
@@ -62,11 +62,12 @@ ul {
     width: 13%;
     background: #CCCCCC;
 }
-.introduction {
-    display: inline-block;
-    width: 290px;
-    height: 360px;
-    margin-right: 1.5%;
+@media screen and (max-width:1440px) and (min-width:768px) {
+    .introduction {
+        display: inline-block;
+        width: 30%;
+        margin-right: 1.5%;
+    }
 }
 .image {
     width: 96%;
