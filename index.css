@@ -45,11 +45,11 @@ ul {
     font-size: 19px;
     line-height: 27px;
 }
-.line-one{
+.line-one {
     margin-top: 8%;
     z-index: 1;
 }
-.line-two{
+.line-two {
     margin-top: 4%;
     z-index: 1;
 }
@@ -62,11 +62,18 @@ ul {
     width: 13%;
     background: #CCCCCC;
 }
-@media screen and (max-width:1440px) and (min-width:768px) {
+@media screen {
     .introduction {
         display: inline-block;
         width: 30%;
         margin-right: 1.5%;
+    }
+}
+@media screen and (max-width:1439px) and (min-width:768px) {
+    .introduction {
+        display: inline-block;
+        width: 35%;
+        margin-right: 14.5%;
     }
 }
 .image {
