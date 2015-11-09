@@ -25,9 +25,6 @@ ul {
     width: 66%;
     margin-left: 19%;
 }
-.nav-word hr {
-    width: 100%;
-}
 .nav-word {
     display: block;
     padding-top: 15px;
@@ -62,19 +59,10 @@ ul {
     width: 13%;
     background: #CCCCCC;
 }
-@media screen {
-    .introduction {
-        display: inline-block;
-        width: 30%;
-        margin-right: 1.5%;
-    }
-}
-@media screen and (max-width:1439px) and (min-width:768px) {
-    .introduction {
-        display: inline-block;
-        width: 35%;
-        margin-right: 14.5%;
-    }
+.introduction {
+    display: inline-block;
+    width: 30%;
+    margin-right: 1.5%;
 }
 .image {
     width: 96%;
@@ -91,4 +79,39 @@ ul {
     width: 18%;
     margin: 2% 0 2% 41%;
     font-size: 17px;
+}
+
+@media screen and (max-width:767px) {
+    .left-nav {
+        width: 100%;
+    }
+    .picture {
+        width: 20%;
+        margin-left: 5%;
+        float: left;
+    }
+    .nav {
+        padding-left: 25%;
+    }
+    .nav-word {
+        padding-bottom: 0;
+        line-height: 0;
+    }
+    .main {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .title {
+        padding-top: 57%;
+    }
+    .introduction {
+        width: 65%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:1439px) and (min-width:768px) {
+    .introduction {
+        width: 35%;
+        margin-right: 14.5%;
+    }
 }
