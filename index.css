@@ -45,8 +45,12 @@ ul {
     font-size: 19px;
     line-height: 27px;
 }
-.main hr {
-    margin-top: 5%;
+.line-one{
+    margin-top: 8%;
+    z-index: 1;
+}
+.line-two{
+    margin-top: 4%;
     z-index: 1;
 }
 .letter {
