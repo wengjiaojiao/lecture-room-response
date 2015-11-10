@@ -80,8 +80,7 @@ ul {
     margin: 2% 0 2% 32%;
     font-size: 17px;
 }
-
-@media screen and (max-width:767px) and (min-width: 375px){
+@media screen and (max-width:767px) and (min-width: 375px) {
     .left-nav {
         width: 100%;
     }
@@ -114,6 +113,11 @@ ul {
     .introduction {
         width: 65%;
         margin-left: 20%;
+    }
+    .letter {
+        margin-top: -8.5%;
+        margin-left: 35%;
+        width: 35%;
     }
 }
 @media screen and (max-width:1439px) and (min-width:768px) {
