@@ -110,6 +110,9 @@ ul {
     .title {
         padding-top: 40%;
     }
+    .subheading {
+        margin-left: 5%;
+    }
     .introduction {
         width: 65%;
         margin-left: 20%;
