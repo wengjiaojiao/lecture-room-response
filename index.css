@@ -91,11 +91,17 @@ ul {
         float: left;
     }
     .nav {
-        padding-left: 25%;
+        padding-left: 30%;
     }
     .nav-word {
         padding-bottom: 0;
         line-height: 0;
+        float: left;
+        font-size: 11px;
+        padding-right: 10%;
+    }
+    .nav hr {
+        border: none;
     }
     .main {
         width: 70%;
